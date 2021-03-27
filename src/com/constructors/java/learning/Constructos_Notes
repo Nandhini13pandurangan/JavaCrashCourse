@@ -1,0 +1,31 @@
+22
+
+Constructor: Constructor is a block of code that initialize the newly created objects.
+     
+      Constructor(){
+      
+                   //code block
+                   
+                   }
+
+Constructors rules : Constructor name should be same as its class name, 
+                     No return type, Should not be static,final,abstract,synchronized
+                     
+ Constructos Types : a) Default b) No Arguments c) Parameterized
+ 
+ Default constructor : When we dont provide any constructor , compiler will provide default one.
+                       We can not see with naked eyes, it will be in class file.
+                       It will provide the default values to objects , ex: 0,null,etc...
+ 
+ No Arguments constructors: It will allow us to write logic when object is created,
+                            And This is not default constructor.
+                            
+ Paramerized constructor: Which means we will give parameters for constructors as below.
+ 
+        ArgumentConstructor(String name){
+        
+                            //code block
+        
+                             }
+        
+                    

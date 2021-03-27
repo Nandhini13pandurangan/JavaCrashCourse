@@ -1,0 +1,19 @@
+                    
+                    
+                    
+                    Diff B/W Overload and Override
+                    
+Aspects						Overload								Override
+
+Method name					Same										Same
+
+Parameters passed			Must be different						Must be same
+
+Return type					Can be anything					Must be same or Convarient return types
+
+Access modifier				Can be anything						equal or greater modifier
+
+Throw exception	           No restricitions					Parent should through equal or greater exception
+
+Private methods				Can be overload					        Can not override
+
